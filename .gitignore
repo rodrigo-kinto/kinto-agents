@@ -1,0 +1,52 @@
+# Dependencias
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Variaveis de ambiente e segredo — nada disso e versionado
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+credentials.json
+service-account*.json
+secrets.y*ml
+.npmrc
+.netrc
+id_rsa*
+*_token
+*.token
+
+# Saida bruta de varredura
+/scan/raw/
+
+# Build e cache
+dist/
+build/
+coverage/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.vite/
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+.playwright/
+
+# Config local do Claude Code (pode conter caminho e permissao da maquina)
+.claude/settings.local.json
+
+# Sistema operacional e editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
